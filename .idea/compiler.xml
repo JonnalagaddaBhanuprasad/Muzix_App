@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EurekaServer" />
+        <module name="UserAuthenticationService" />
+        <module name="SpringBootMovieApplication" />
+        <module name="callingExternalApi" />
+        <module name="SpringCloudAPIGateway" />
+        <module name="UserMovieService" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EurekaServer" options="-parameters" />
+      <module name="SpringBootMovieApplication" options="-parameters" />
+      <module name="SpringCloudAPIGateway" options="-parameters" />
+      <module name="UserAuthenticationService" options="-parameters" />
+      <module name="UserMovieService" options="-parameters" />
+      <module name="callingExternalApi" options="-parameters" />
+    </option>
+  </component>
+</project>
